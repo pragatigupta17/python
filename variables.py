@@ -8,4 +8,10 @@ num3 = 90                   #Instruction  |    num1,num2      |  90,100,90/  obj
 print(id(num1))
 print(id(num2))
 print(id(num3))
+print(id(num1),id(num2),id(num3))          #GC() ----> Garbage collector
+num1 = 98                                    
+print(id(num1),id(num2),id(num3))
+num3 = 567
+
+
 
