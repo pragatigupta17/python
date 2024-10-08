@@ -43,8 +43,37 @@ lis=[]
 li = list()
 print(lis)
 print(li)
-#ANY()
+
+
+#ANY() ------>
 
 print(any(lis)) #false  if its filled with data it return true otherwise return false
 lis=[56]
 print(any(lis)) #true 
+
+# APPEND ------>  lis.append(element)
+lis=[23,45,6,7,88]
+print(lis)
+lis.append(10)
+print(lis)
+lis.append(["mango","banana"])
+lis.append(["200/kg","78/d"])
+print(lis)
+print(lis[6])
+print(lis[6][0])
+print(lis[6][1])
+
+lis[6].append("apple")
+lis[7].append("100/kg")
+print(lis)
+
+# EXTEND -----> lis.extend(sequence) -- list,tuple,string
+#lis.extend(45) --> it generate error because 45 is int 
+
+lis.extend(["pineapple","orange"])
+lis.append(["grapes","watermelon"])
+print(lis)
+
+# INSERT ----> (index,element)
+lis[6].insert(1,"lichi")
+print(lis)
