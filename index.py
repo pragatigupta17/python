@@ -28,3 +28,4 @@ nums.sort()
 print(nums)
 nums.sort(reverse=True) #asscending to desscending
 print(nums)
+# INPLACE FUNCTION --> are the functions in which no extra object has been created 
