@@ -16,4 +16,30 @@ fruit = ("apple",20,100) + ("banana",999)               #                       
 fruit = ("apple",20,100,"banana",999)                   #                             | ---------------------------
 fruit = 99999999999999                                  #                             | | 736 |   080  |  690 |
 print(fruit)                                            #                             |  656 = address of tuple
-"""NOTE -->    """          
+"""NOTE -->    """         
+number= (12,99) + (78,90) #2 tuple
+number=number + (89,90)# 2 tuple
+print(number) # 1 tuple (12,99,78,90,89,90) there are total 5 tuples in this number list
+#             0            1
+lis = [["ajay","aman"],(45,67)] 
+#          0     1       0  1
+#print(type(lis[1]))
+#lis[1][0]=99
+lis.pop()
+print(lis)
+t=(34,55,[3,4,555])  
+print(t)
+t[2][1]=99999
+print(t)
+t[2].append(88888)
+print(t)
+lis2 = [["ajay","aman"],(45,[67,44])]
+print(type(lis2))
+#lis2[1]=999
+#lis2[0]=888
+print(lis2)
+print(type(lis2[1]))
+lis2[1][1][1]=88
+print(lis2)
+
+         
