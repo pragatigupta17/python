@@ -1,0 +1,48 @@
+# 1)
+data = [10,[2.5,"apple"],(3,4)]
+data[1][1]
+print(data)#"apple"
+# 2)
+items = [(1,2,3),["banana","kiwi"],7.5]
+items[0][2]
+print(items)#3
+# 3)
+mixed=[[1,2],(3.5,"grape"),[4,5,6]]
+mixed[1][0]
+print(mixed)#3.5
+# 4)
+element = [100,(200,300),["a","b","c"]]
+element[2][1]
+print(element) #b
+# 5)
+data2 = [[10,20],(30,40,50)]
+data2[0][0]
+print(data2)#10
+# 6)
+value = [(1.5,2.5),[3,4],5]
+value[0][1]
+print(value)#2.5
+# 7)
+numbers = [[5,10],(15,20)]
+numbers[1][1]
+print(numbers) #20
+# 8)
+shapes = ["circle",(5,10),[15,20,25]]
+shapes[2][0]
+print(shapes) #15
+# 9)
+matrix = [[1,2,3],[4,5,6],[7,8,9]]
+matrix[1][2]
+print(matrix) #6
+# 10)
+data3 = [(1,2,3),[4,5,6]]
+#data3[0][1] = 10
+print(data3) # error :'tuple' object does not support item assignment
+# 11)
+data4 = [[1,2],(3.5,4.5)]
+#data4[1][0] = 7.5
+print(data4) # error :'tuple' object does not support item assignment
+
+
+
+
