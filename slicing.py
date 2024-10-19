@@ -9,3 +9,10 @@ a=lis1[2:4:-1]
 print(a)
 b=lis1[3:8:1]
 print(b)
+s="Apple Banana"
+a=s[6:]
+print(a)
+b=s[::1]
+print(b)
+c=s[6:]+" "+s[:5]
+print(c)
