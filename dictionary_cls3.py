@@ -41,7 +41,11 @@ print(data3)
 num={'1':2390,'2':2378,'3':45667,
 '4':{'11':4567,'22':45678,'44':34567}}
 print(num)
-num1=num.pop(['4'][34567])
-print(num1)
+print(type(num))
+print(type(num['4']))
+print(type(num['1']))
+num[4].popitem()
+print(num)
+
 
 
