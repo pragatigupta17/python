@@ -2,20 +2,23 @@
 # 2 4 6 8 10 = sum 
 n=int(input("enter any no:"))
 i=1
+sum=0
 while i<=n:
-  if n%2==0: 
-    if i%2==0:
-      if i<=(n-2):
-        print(i,end=',')
-      else :
-        print(i)
-  else:
+  if i%2==0:
+    sum=sum+i
+    if i<=(n-2):
+        print(i,end='+')
+    else :
+        print(i,end='=')
+  i=i+1
+print(sum)
+'''else:
     if i%2==0:
       if i<=(n-2):
         print(i,end=',')
       else:
-        print(i)
+        print(i)'''
 
-    i=i+1
+
 
     
