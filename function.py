@@ -20,11 +20,20 @@ print(x)
 # print(var)
 
 
-def add(*n):
+'''def add(*n):
     print(n)
     sum=0
     for i in n:
         sum = sum+i
     return sum
 var=add(10,20,30,40,50,60)
-print(var)
+print(var)'''
+#-----------------------------------------------------------------------------
+#KEYWORD VARIABLE-LENGTH ARGUMENT OF FUNCTION (** KWargs)
+'''def show(**kwargs):
+    print(kwargs)
+    for key,value in kwargs.items():
+        print(key,"=",value)
+show(name='pragati',age=24,qualification='B.Tech')'''
+#-----------------------------------------------------------------------------
+
